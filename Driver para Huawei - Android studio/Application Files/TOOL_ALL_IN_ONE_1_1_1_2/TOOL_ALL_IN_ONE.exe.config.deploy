@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="TOOL_ALL_IN_ONE.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <userSettings>
+        <TOOL_ALL_IN_ONE.My.MySettings>
+            <setting name="ComboSelectedIndex" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="ScreenFolder" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Counter" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="TransactionID" serializeAs="String">
+                <value>vuoto</value>
+            </setting>
+            <setting name="Counterbluf" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Username" serializeAs="String">
+                <value>vuoto</value>
+            </setting>
+            <setting name="Password" serializeAs="String">
+                <value>vuoto</value>
+            </setting>
+        </TOOL_ALL_IN_ONE.My.MySettings>
+    </userSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="ICSharpCode.SharpZipLib" publicKeyToken="1b03e6acf1164f73" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.0.0.999" newVersion="1.0.0.999" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
